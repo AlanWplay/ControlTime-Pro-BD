@@ -73,3 +73,68 @@ JOIN maestros titular
 JOIN maestros suplente
     ON s.nup_docente_suplente = suplente.nup_docente
 ORDER BY s.fecha DESC;
+
+*Tabla materia*
+
+INSERT INTO materia (id_materia, nombre_materia, nivel_o_grado)
+VALUES
+(6, 'Programación', '1° Bachillerato'),
+(7, 'Diseño web', '3° Bachillerato'),
+(8, 'Diseño de portales web ', '2° Bachillerato'),
+(9, 'Arquitectura de Software', '2° Bachillerato'),
+(10, 'Algoritmos', '1° Bachillerato');
+
+SELECT * FROM materia;
+
+SELECT *
+FROM materia;
+
+SELECT nombre_materia, nivel_o_grado
+FROM materia;
+
+SELECT *
+FROM materia
+ORDER BY nombre_materia;
+
+UPDATE materia
+SET nivel_o_grado = '3°Bachillerato'
+WHERE id_materia = 1;
+
+UPDATE materia
+SET nombre_materia = 'Diseño Web'
+WHERE id_materia = 8;
+
+SELECT *
+FROM materia
+ORDER BY id_materia;
+
+DELETE FROM materia
+WHERE id_materia = 8;
+
+
+SELECT * FROM materia;
+
+Consultas con preguntas
+
+SELECT *
+FROM materia
+ORDER BY nombre_materia;
+
+SELECT *
+FROM materia
+WHERE nivel_o_grado = '3° Bachillerato';
+
+SELECT *
+FROM materia
+WHERE nombre_materia = 'Arquitectura de Software';
+
+SELECT *
+FROM materia
+ORDER BY nivel_o_grado;
+
+SELECT COUNT(*) AS total_materias
+FROM materia;
+
+
+
+
