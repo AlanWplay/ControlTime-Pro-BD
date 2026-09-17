@@ -58,6 +58,6 @@ Los cambios realizados en esta rama pueden verificarse mediante:
 
 ## Autor
 
-Ricardo Alexander Aguillón Ortiz
+- Ricardo Alexander Aguillón Ortiz
 - Tercer Año de Bachillerato Técnico en Desarrollo de Software
 - Instituto Católico Karol Wojtyla
