@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rama Personal - Ricardo Aguillón
 
 ## Información General
@@ -61,3 +62,7 @@ Los cambios realizados en esta rama pueden verificarse mediante:
 - Ricardo Alexander Aguillón Ortiz
 - Tercer Año de Bachillerato Técnico en Desarrollo de Software
 - Instituto Católico Karol Wojtyla
+=======
+# ControlTime-Pro-BD
+Trabajo base de datos, conexión con mit app inventor
+>>>>>>> e9559d72c8b2a3734715b0eb130392669900f164
