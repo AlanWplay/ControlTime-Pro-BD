@@ -73,3 +73,4 @@ SELECT
 FROM maestros
 GROUP BY tipo_contrato;
 
+Consultas que hice en la semana 3 
