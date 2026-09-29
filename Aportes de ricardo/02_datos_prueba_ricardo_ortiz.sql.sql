@@ -1,3 +1,4 @@
+-------- Semana 2 ---------------------
 --------------------------------------------|
 ---Insert permisos y sustituto--------------|
 --------------------------------------------|	
@@ -20,3 +21,17 @@ VALUES
 (9, 4, 'DOC004', 'DOC005', '2026-10-08', 'Cubre por permiso personal'),
 (10, 5, 'DOC005', 'DOC001', '2026-10-12', 'Cubre por incapacidad médica');
 
+
+
+-------- Semana 3 ---------------------
+
+UPDATE permisos
+SET motivo = ''
+WHERE id_permiso = 10;
+
+
+
+
+UPDATE permisos
+SET fecha_fin = '2026-09-05'
+WHERE id_permiso = 8;
