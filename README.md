@@ -9,6 +9,9 @@
 - **Nombre del proyecto:** ControlTime Pro Smart Access
 - **Nombre del repositorio:** ControlTime-Pro-BD
 - **Institución:** Instituto Católico Karol Wojtyla
+- **Integrantes:**
+      - Ricardo Alexander Aguillón Ortiz
+      - Leslie Stefany Ayala Flores
 - **Nivel académico:** Tercer año de Bachillerato Vocacional en Desarrollo de Software
 - **Módulo:** BTVDS 3.5 — Desarrollo de Componentes para Dispositivos Móviles
 - **Asignatura relacionada:** Administración de Bases de Datos
